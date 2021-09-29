@@ -1,0 +1,127 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .main-page {
+        margin-right: -40px!important;
+    }
+    #hero {
+        background-attachment: fixed;
+    }
+   
+    #hero .title{
+        font-family: 'Helvetica';
+        font-size: 40!important;
+    }
+    .title-center {
+        color: #fff;
+        padding: 41vh 0vh;
+    }
+    .first-bride {
+        margin-top: -160px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .template-two{
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .bride-first .bride-girl {
+        width: 150px;
+        padding: 10px;
+    }
+    .bride-first .bride-man {
+        width: 150px;
+        padding: 10px;
+    }
+    .bride-first {
+        margin-top: 30px;
+    }
+    .carousel-inner {
+        border-radius: 0px!important;
+        height: 100%!important;
+    }
+    .separator-1{
+        width: 100%!important;
+    }
+    .separator-6{
+        width: 100%!important;
+    }
+    .first-video{
+        position: fixed;
+        bottom: 130px;
+        left: 19%;
+    }
+    .button-first {
+        position: fixed;
+        bottom: 65px;
+        width: 60%;
+        margin-left: 17%;
+        /* padding-left: 0px;
+        padding-right: 30px; */
+    }
+}
+/* iphone X */
+@media (width: 375px) and (height: 812px){
+
+}
+@media (max-width: 320px) {
+
+}
+
+@media(width:360px){
+    .template-two{
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+}
